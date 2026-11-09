@@ -1,0 +1,10 @@
+# Versions from the accepted R4 environment, not a new dependency upgrade.
+torch==2.8.0
+torchvision==0.23.0
+numpy==2.0.2
+diffusers==0.36.0
+transformers==4.44.2
+omegaconf==2.3.0
+accelerate==1.10.1
+safetensors==0.7.0
+Pillow

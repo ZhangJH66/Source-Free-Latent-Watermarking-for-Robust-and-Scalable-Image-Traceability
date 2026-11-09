@@ -1,0 +1,11 @@
+{
+  "sd21": "/public/liuzongxin/demo/watermark/tree-ring-watermark/stabilityai/stable-diffusion-2-1-base",
+  "checkpoint": "/public/zhangjinhong/RW/train_v1/2026-01-16T09-03-56/step20003/wm_model.ckpt",
+  "checkpoint_sha256": "a1b408c3cea32f51e0d8e7ec7465c4eab2d5234dd3274722261dd0771a0e8c19",
+  "message_bits": "0101011111111111000110010011000111111111010101100100010100110101",
+  "registry": "/public/zhangjinhong/RW/REVIEWER3_CORRECT_MODEL_FINAL/native_v2/registry",
+  "registry_sha256": {
+    "positions.npy": "7360434da297b074c6d62a42e8471aef16d591950c80f2fdf2a6b1ea928cc03f",
+    "transforms.npy": "943f353b9eef4724c62bc4b0655402014989912aba62b1170090d3548a5d7cf3"
+  }
+}

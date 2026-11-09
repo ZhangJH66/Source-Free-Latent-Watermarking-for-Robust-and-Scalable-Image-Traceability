@@ -1,0 +1,69 @@
+{
+  "scope": "Ours inference core only; no training, attacks, baselines, weights or job dispatch",
+  "extraction": "Whole-file copies or AST-identical selected definitions; imports isolated.",
+  "sources": [
+    {
+      "output": "model.py",
+      "source": "REVIEWER3_CORRECT_MODEL_FINAL/code_snapshot/native/core/model1.py",
+      "source_sha256": "711056e802b7252973b92ea8b330a95f064f1de027baa12da50937e907da6d00",
+      "symbols": "whole file",
+      "output_sha256": "711056e802b7252973b92ea8b330a95f064f1de027baa12da50937e907da6d00"
+    },
+    {
+      "output": "inversion.py",
+      "source": "REVIEWER3_CORRECT_MODEL_FINAL/code_snapshot/native/core/inverse_stable_diffusion.py",
+      "source_sha256": "47cbb6a46a1927d431b1e7c41b834000f3b3e7f4610443b9d928962f6ef2cd61",
+      "symbols": "whole file",
+      "output_sha256": "47cbb6a46a1927d431b1e7c41b834000f3b3e7f4610443b9d928962f6ef2cd61"
+    },
+    {
+      "output": "mapping.py",
+      "source": "REVIEWER3_CORRECT_MODEL_FINAL/code_snapshot/native/core/utils.py",
+      "source_sha256": "ac1e42bac2fed6f648957d080f18a4c3934a2f8f67fd353f9b5e7eb7c508cced",
+      "symbols": [
+        "LatentShuffler"
+      ],
+      "output_sha256": "5f802905c3799d997709b11244a67e6f4237c7e10caf857a3ed63f386fc15b00"
+    },
+    {
+      "output": "codec.py",
+      "source": "REVIEWER3_CORRECT_MODEL_FINAL/code_snapshot/native/revision/common.py",
+      "source_sha256": "7125c4305565b5cdd9a706839e82d458ff4c29c9a94faf49a64f2f90c5bd99aa",
+      "symbols": [
+        "Mapping",
+        "make_mapping",
+        "mapping_to_json",
+        "mapping_from_json",
+        "encode_with_mapping"
+      ],
+      "output_sha256": "b8d9cb3a8405dc5e2f4ebe00ff78bcd117b8985ebfd581971e36697641b79032"
+    },
+    {
+      "output": "checkpoint.py",
+      "source": "REVIEWER3_CORRECT_MODEL_FINAL/code_snapshot/native/core/eval_v1.py",
+      "source_sha256": "b9ce9dabb6cef7d22cc429c74cb3a7498e147b8ac6dad1f98e394ae752449cae",
+      "symbols": [
+        "load_wm_model"
+      ],
+      "output_sha256": "64104e6cb23c1a4f3538b4e0aafe35dd636e70f5e61a78781685f80a61776732"
+    },
+    {
+      "output": "scan.py",
+      "source": "REVIEWER3_CORRECT_MODEL_FINAL/code_snapshot/native_backend.py",
+      "source_sha256": "b294d22c666b5b4f0e36fe496b541876772d152596dd65bc5bba4fcd709c9e4e",
+      "symbols": [
+        "patch_bank",
+        "map_bank",
+        "score_maps"
+      ],
+      "output_sha256": "36c40b8727450e3fdc46939c681afe898ce8440f12ff5d45d1c5cf98aa171d33"
+    },
+    {
+      "output": "decision.py",
+      "source": "revision_r4_20261104/D_streaming_v1.py",
+      "source_sha256": "e3e1426648fe1382bae41890f3378035cfe9f68624790aaf8a3b3e875b291ddd",
+      "symbols": "whole file",
+      "output_sha256": "e3e1426648fe1382bae41890f3378035cfe9f68624790aaf8a3b3e875b291ddd"
+    }
+  ]
+}
